@@ -1,0 +1,39 @@
+body {
+    /* A4 sheet size width and height */
+    height: 842px;
+    width: 595px;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: #262b33;
+    font-family: TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.main-section {
+    padding: 0 10px 0 20px;
+    width: 65%;
+    background-color: rgb(243, 243, 239);
+
+}
+.side-section {
+    /* border-radius:0 2% 2% 0; */
+    width: 35%;
+    padding: 20px;
+    background-color: #082A4D;
+    color: #fff;
+}
+.title {
+    display: flex;
+}
+.title-content {
+    width: 60%;
+    padding: 20px;
+}
+.title-photo {
+    width: 38%;
+    border-radius: 50%;
+    padding: 20px 0;
+}
